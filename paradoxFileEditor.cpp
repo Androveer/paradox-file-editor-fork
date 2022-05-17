@@ -5,8 +5,6 @@
 #include <fstream>
 #include <string>
 
-//using namespace std;
-
 /*
  * Removed the blanket use of the std namespace. Added explicit using for each function from the std lib.
  */
