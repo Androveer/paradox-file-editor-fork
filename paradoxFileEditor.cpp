@@ -5,7 +5,14 @@
 #include <fstream>
 #include <string>
 
-using namespace std;
+/*
+ * Removed the blanket use of the std namespace. Added explicit using for each function from the std lib.
+ */
+using std::cout;
+using std::cin;
+using std::string;
+using std::ofstream;
+using std::ifstream;
 
 int main()
 {
